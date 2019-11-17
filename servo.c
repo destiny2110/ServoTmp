@@ -1,5 +1,5 @@
 /// @file servo.c
-/// @brief Version 0.1
+/// @brief Version 0.2
 
 #include <Arduino.h>
 #include <Wire.h>
@@ -91,5 +91,5 @@ void loop() {
 
 void _delay(float seconds){
     long endTime = millis() + seconds * 1000;
-    while(millis() < endTime)_loop();
+    while(millis() < endTime);
 }
