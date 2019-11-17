@@ -1,5 +1,5 @@
 /// @file servo.c
-/// @brief Version 0.2
+/// @brief Version 0.3
 
 #include <Arduino.h>
 #include <Wire.h>
@@ -68,8 +68,8 @@ void loop() {
     // Relay switched ON
     digitalWrite(6,HIGH);
     digitalWrite(7,HIGH);
-    // Servo rotate 90 degree
-    servo_9.write(90);
+    // Servo rotate 180 degree
+    servo_9.write(180);
     // Print some thing to console
     Serial.println("Den gio an");
   }
