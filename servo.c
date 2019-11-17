@@ -1,3 +1,6 @@
+/// @file servo.c
+/// @brief Version 0.1
+
 #include <Arduino.h>
 #include <Wire.h>
 #include <SoftwareSerial.h>
